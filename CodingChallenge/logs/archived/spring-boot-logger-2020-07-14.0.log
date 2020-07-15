@@ -1,0 +1,685 @@
+2020-07-14 21:47:34,546 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:47:34,547 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:47:34,725 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:47:34,726 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:47:34,727 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:47:34,735 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:47:34,736 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 187 ms
+2020-07-14 21:47:34,774 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:47:34,810 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:47:34,818 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:47:34,822 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.339 seconds (JVM running for 512.14)
+2020-07-14 21:47:34,824 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:50:51,315 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-126] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:50:51,410 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:50:51,411 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:50:51,533 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:50:51,534 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:50:51,534 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:50:51,539 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:50:51,539 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 125 ms
+2020-07-14 21:50:51,544 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'randomGeneratorController': Unsatisfied dependency expressed through field 'randomWordServiceImpl'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'randomWordServiceImpl' defined in file [/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes/com/thinkhr/challenge/service/impl/RandomWordServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	DemoApplication cannot be resolved to a type
+
+2020-07-14 21:50:51,544 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2020-07-14 21:50:51,547 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-14 21:50:51,551 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'randomGeneratorController': Unsatisfied dependency expressed through field 'randomWordServiceImpl'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'randomWordServiceImpl' defined in file [/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes/com/thinkhr/challenge/service/impl/RandomWordServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	DemoApplication cannot be resolved to a type
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.thinkhr.challenge.CodingChallengeApplication.main(CodingChallengeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'randomWordServiceImpl' defined in file [/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes/com/thinkhr/challenge/service/impl/RandomWordServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	DemoApplication cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	DemoApplication cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:217)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	DemoApplication cannot be resolved to a type
+
+	at com.thinkhr.challenge.service.impl.RandomWordServiceImpl.<init>(RandomWordServiceImpl.java:19)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	... 38 common frames omitted
+2020-07-14 21:51:04,118 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:51:04,118 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:51:04,251 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:51:04,252 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:51:04,252 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:51:04,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:51:04,264 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 144 ms
+2020-07-14 21:51:04,270 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'randomGeneratorController': Unsatisfied dependency expressed through field 'randomWordServiceImpl'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'randomWordServiceImpl' defined in file [/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes/com/thinkhr/challenge/service/impl/RandomWordServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+2020-07-14 21:51:04,270 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2020-07-14 21:51:04,274 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-14 21:51:04,275 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'randomGeneratorController': Unsatisfied dependency expressed through field 'randomWordServiceImpl'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'randomWordServiceImpl' defined in file [/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes/com/thinkhr/challenge/service/impl/RandomWordServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.thinkhr.challenge.CodingChallengeApplication.main(CodingChallengeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'randomWordServiceImpl' defined in file [/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes/com/thinkhr/challenge/service/impl/RandomWordServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.thinkhr.challenge.service.impl.RandomWordServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:217)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at com.thinkhr.challenge.service.impl.RandomWordServiceImpl.<init>(RandomWordServiceImpl.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	... 38 common frames omitted
+2020-07-14 21:51:30,966 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:51:30,967 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:51:31,122 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:51:31,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:51:31,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:51:31,130 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:51:31,131 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 163 ms
+2020-07-14 21:51:31,161 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:51:31,189 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:51:31,196 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:51:31,199 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.253 seconds (JVM running for 748.507)
+2020-07-14 21:51:31,200 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:52:04,959 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-247] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:52:05,062 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:52:05,062 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:52:05,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:52:05,184 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:52:05,184 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:52:05,191 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:52:05,191 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 127 ms
+2020-07-14 21:52:05,220 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:52:05,245 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:52:05,251 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:52:05,254 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.212 seconds (JVM running for 782.562)
+2020-07-14 21:52:05,255 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:53:07,315 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-596] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:53:07,398 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:53:07,398 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:53:07,497 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:53:07,498 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:53:07,498 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:53:07,503 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:53:07,503 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 103 ms
+2020-07-14 21:53:07,523 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:53:07,545 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:53:07,551 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:53:07,554 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.172 seconds (JVM running for 844.863)
+2020-07-14 21:53:07,555 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:53:32,215 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-715] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:53:32,295 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:53:32,295 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:53:32,414 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:53:32,415 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:53:32,415 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:53:32,424 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:53:32,424 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 127 ms
+2020-07-14 21:53:32,448 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:53:32,475 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:53:32,482 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:53:32,486 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.212 seconds (JVM running for 869.794)
+2020-07-14 21:53:32,488 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:54:04,202 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-834] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:04,287 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:54:04,287 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:54:04,405 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:54:04,405 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:54:04,405 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:54:04,412 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:54:04,412 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 123 ms
+2020-07-14 21:54:04,435 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:04,458 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:54:04,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:54:04,467 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.2 seconds (JVM running for 901.776)
+2020-07-14 21:54:04,469 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:54:08,927 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-953] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:09,007 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:54:09,007 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:54:09,118 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:54:09,119 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:54:09,119 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:54:09,127 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:54:09,127 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 118 ms
+2020-07-14 21:54:09,149 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:09,176 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:54:09,182 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:54:09,186 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.195 seconds (JVM running for 906.495)
+2020-07-14 21:54:09,187 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:54:36,858 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1072] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:36,927 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:54:36,927 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:54:37,042 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:54:37,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:54:37,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:54:37,050 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:54:37,050 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 121 ms
+2020-07-14 21:54:37,073 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:37,095 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:54:37,101 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:54:37,104 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.196 seconds (JVM running for 934.413)
+2020-07-14 21:54:37,105 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:54:59,761 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1191] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:54:59,825 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:54:59,825 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:54:59,930 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:54:59,930 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:54:59,931 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:54:59,939 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:54:59,940 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 114 ms
+2020-07-14 21:54:59,996 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:55:00,069 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:55:00,077 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:55:00,085 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.276 seconds (JVM running for 957.392)
+2020-07-14 21:55:00,086 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:55:05,544 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1310] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:55:05,600 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:55:05,601 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:55:05,691 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:55:05,692 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:55:05,692 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:55:05,699 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:55:05,699 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 97 ms
+2020-07-14 21:55:05,721 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:55:05,748 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:55:05,754 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:55:05,757 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.173 seconds (JVM running for 963.067)
+2020-07-14 21:55:05,759 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 21:55:19,301 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1429] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:55:19,369 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 21:55:19,370 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 21:55:19,500 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 21:55:19,501 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 21:55:19,501 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 21:55:19,507 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 21:55:19,507 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 136 ms
+2020-07-14 21:55:19,528 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:55:19,549 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 21:55:19,555 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 21:55:19,558 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.206 seconds (JVM running for 976.868)
+2020-07-14 21:55:19,560 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:00:46,166 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1548] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:00:46,244 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:00:46,244 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:00:46,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:00:46,357 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:00:46,357 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:00:46,364 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:00:46,364 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 119 ms
+2020-07-14 22:00:46,386 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:00:46,407 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:00:46,413 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:00:46,416 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.19 seconds (JVM running for 1303.726)
+2020-07-14 22:00:46,417 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:01:23,168 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1667] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:01:23,239 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:01:23,240 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:01:23,367 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:01:23,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:01:23,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:01:23,376 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:01:23,376 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 135 ms
+2020-07-14 22:01:23,398 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:01:23,419 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:01:23,425 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:01:23,430 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.21 seconds (JVM running for 1340.735)
+2020-07-14 22:01:23,432 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:02:11,066 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1786] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:11,168 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:02:11,169 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:02:11,279 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:02:11,280 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:02:11,280 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:02:11,286 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:02:11,286 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 116 ms
+2020-07-14 22:02:11,307 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:11,329 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:02:11,336 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:02:11,340 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.191 seconds (JVM running for 1388.644)
+2020-07-14 22:02:11,341 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:02:19,826 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1905] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:19,896 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:02:19,896 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:02:20,011 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:02:20,012 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:02:20,012 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:02:20,019 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:02:20,019 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 121 ms
+2020-07-14 22:02:20,046 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:20,076 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:02:20,082 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:02:20,086 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.206 seconds (JVM running for 1397.39)
+2020-07-14 22:02:20,087 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:02:28,575 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2024] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:28,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:02:28,659 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:02:28,783 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:02:28,783 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:02:28,783 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:02:28,791 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:02:28,791 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 130 ms
+2020-07-14 22:02:28,815 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:28,838 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:02:28,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:02:28,848 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.205 seconds (JVM running for 1406.152)
+2020-07-14 22:02:28,849 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:02:35,314 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2143] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:35,368 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:02:35,368 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:02:35,478 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:02:35,479 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:02:35,479 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:02:35,486 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:02:35,486 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 116 ms
+2020-07-14 22:02:35,506 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:35,529 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:02:35,535 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:02:35,538 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.186 seconds (JVM running for 1412.842)
+2020-07-14 22:02:35,539 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:02:40,997 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2262] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:41,061 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:02:41,061 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:02:41,175 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:02:41,175 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:02:41,175 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:02:41,182 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:02:41,182 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 119 ms
+2020-07-14 22:02:41,202 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:02:41,224 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:02:41,230 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:02:41,233 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.193 seconds (JVM running for 1418.537)
+2020-07-14 22:02:41,234 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:04:13,537 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2381] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:04:13,602 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:04:13,602 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:04:13,701 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:04:13,702 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:04:13,702 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:04:13,709 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:04:13,709 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 106 ms
+2020-07-14 22:04:13,731 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:04:13,758 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:04:13,764 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:04:13,767 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.181 seconds (JVM running for 1511.072)
+2020-07-14 22:04:13,768 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:04:21,260 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2500] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:04:21,314 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 17180 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:04:21,314 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:04:21,432 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:04:21,433 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:04:21,433 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:04:21,445 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:04:21,446 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 130 ms
+2020-07-14 22:04:21,483 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:04:21,508 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:04:21,514 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:04:21,518 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.22 seconds (JVM running for 1518.823)
+2020-07-14 22:04:21,519 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:04:23,580 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(66)-127.0.0.1] Application shutdown requested.
+2020-07-14 22:04:23,597 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(66)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:04:37,826 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 22537 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:04:37,829 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:04:37,865 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-14 22:04:37,865 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-14 22:04:38,466 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:04:38,470 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:04:38,471 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:04:38,471 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:04:38,511 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:04:38,511 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 645 ms
+2020-07-14 22:04:38,631 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:04:38,738 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:04:38,750 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:04:38,776 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:04:38,785 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 1.194 seconds (JVM running for 1.687)
+2020-07-14 22:04:45,725 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 22:04:45,725 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-14 22:04:45,732 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-07-14 22:06:48,451 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-119] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:06:48,545 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 22537 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:06:48,546 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:06:48,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:06:48,703 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:06:48,703 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:06:48,703 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:06:48,711 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:06:48,711 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 163 ms
+2020-07-14 22:06:48,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:06:48,771 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:06:48,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:06:48,778 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:06:48,782 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.261 seconds (JVM running for 131.684)
+2020-07-14 22:06:48,783 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:06:55,423 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 22:06:55,424 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-14 22:06:55,430 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-07-14 22:10:24,563 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(18)-127.0.0.1] Application shutdown requested.
+2020-07-14 22:10:24,584 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(18)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:10:34,786 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:10:34,788 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:10:34,813 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-14 22:10:34,813 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-14 22:10:35,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:10:35,447 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:10:35,447 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:10:35,448 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:10:35,491 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:10:35,491 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 678 ms
+2020-07-14 22:10:35,616 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:10:35,725 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:10:35,736 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:10:35,763 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:10:35,772 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 1.203 seconds (JVM running for 1.725)
+2020-07-14 22:10:43,176 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 22:10:43,177 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-14 22:10:43,181 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2020-07-14 22:12:49,487 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-119] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:12:49,577 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:12:49,578 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 22:12:49,578 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:12:49,764 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:12:49,765 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:12:49,766 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:12:49,766 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:12:49,777 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:12:49,777 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 197 ms
+2020-07-14 22:12:49,819 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:12:49,850 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:12:49,856 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:12:49,858 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:12:49,863 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.31 seconds (JVM running for 135.818)
+2020-07-14 22:12:49,867 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:12:58,782 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 22:12:58,783 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-14 22:12:58,788 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2020-07-14 22:12:58,790 DEBUG com.thinkhr.challenge.reader.impl.FileReader [http-nio-8080-exec-1] fileName = src/main/resources/words_alpha.txt
+2020-07-14 22:12:58,819 DEBUG com.thinkhr.challenge.service.impl.RandomWordServiceImpl [http-nio-8080-exec-1] total number of lines in the files 370103
+2020-07-14 22:12:58,820 DEBUG com.thinkhr.challenge.service.impl.RandomWordServiceImpl [http-nio-8080-exec-1] Random number selected  274760
+2020-07-14 22:12:58,858 DEBUG com.thinkhr.challenge.service.impl.RandomWordServiceImpl [http-nio-8080-exec-1] random word from the file isroughdraft
+2020-07-14 22:14:17,177 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-126] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:14:17,302 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:14:17,303 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 22:14:17,303 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:14:17,463 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:14:17,464 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:14:17,464 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:14:17,465 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:14:17,474 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:14:17,475 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 170 ms
+2020-07-14 22:14:17,522 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:14:17,551 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:14:17,556 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:14:17,558 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:14:17,561 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.289 seconds (JVM running for 223.515)
+2020-07-14 22:14:17,562 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:14:30,103 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-245] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:14:30,248 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:14:30,249 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 22:14:30,249 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:14:30,419 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:14:30,419 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:14:30,420 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:14:30,420 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:14:30,427 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:14:30,428 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 175 ms
+2020-07-14 22:14:30,460 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:14:30,493 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:14:30,498 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:14:30,500 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:14:30,504 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.282 seconds (JVM running for 236.459)
+2020-07-14 22:14:30,506 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 22:14:35,526 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 22:14:35,527 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-14 22:14:35,531 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2020-07-14 22:16:34,115 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-364] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:16:34,207 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 22:16:34,207 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 22:16:34,207 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 22:16:34,337 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 22:16:34,338 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:16:34,338 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 22:16:34,338 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 22:16:34,348 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 22:16:34,348 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 139 ms
+2020-07-14 22:16:34,375 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 22:16:34,402 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 22:16:34,408 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 22:16:34,410 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 22:16:34,415 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.228 seconds (JVM running for 360.37)
+2020-07-14 22:16:34,417 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:20:26,679 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-483] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:20:26,746 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:20:26,747 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:20:26,747 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:20:26,870 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:20:26,871 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:20:26,871 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:20:26,871 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:20:26,879 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:20:26,880 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 131 ms
+2020-07-14 23:20:26,925 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:20:26,960 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:20:26,971 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:20:26,975 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:20:26,994 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.268 seconds (JVM running for 1654.781)
+2020-07-14 23:20:26,996 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:25:13,190 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-602] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:25:13,278 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:25:13,278 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:25:13,279 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:25:13,400 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:25:13,401 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:25:13,401 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:25:13,401 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:25:13,407 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:25:13,408 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 128 ms
+2020-07-14 23:25:13,432 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:25:13,457 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:25:13,462 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:25:13,464 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:25:13,467 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.212 seconds (JVM running for 1941.256)
+2020-07-14 23:25:13,468 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:29:05,192 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-721] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:29:05,280 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:29:05,280 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:29:05,281 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:29:05,429 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:29:05,430 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:29:05,430 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:29:05,430 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:29:05,442 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:29:05,442 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 159 ms
+2020-07-14 23:29:05,475 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:29:05,504 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:29:05,508 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:29:05,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:29:05,514 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.261 seconds (JVM running for 2173.304)
+2020-07-14 23:29:05,518 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:32:00,601 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-840] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:32:00,698 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:32:00,698 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:32:00,698 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:32:00,822 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:32:00,823 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:32:00,823 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:32:00,824 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:32:00,830 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:32:00,830 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 130 ms
+2020-07-14 23:32:00,854 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:32:00,878 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:32:00,883 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:32:00,884 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:32:00,888 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.21 seconds (JVM running for 2348.679)
+2020-07-14 23:32:00,889 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:32:32,608 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-959] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:32:32,655 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:32:32,655 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:32:32,655 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:32:32,753 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:32:32,753 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:32:32,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:32:32,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:32:32,762 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:32:32,762 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 106 ms
+2020-07-14 23:32:32,785 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:32:32,809 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:32:32,813 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:32:32,814 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:32:32,818 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.177 seconds (JVM running for 2380.609)
+2020-07-14 23:32:32,819 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:32:51,410 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1078] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:32:51,459 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:32:51,460 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:32:51,460 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:32:51,574 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:32:51,574 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:32:51,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:32:51,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:32:51,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:32:51,583 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 122 ms
+2020-07-14 23:32:51,606 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:32:51,632 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:32:51,639 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:32:51,641 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:32:51,644 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.201 seconds (JVM running for 2399.435)
+2020-07-14 23:32:51,645 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:33:30,428 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1197] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:33:30,487 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:33:30,487 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:33:30,488 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:33:30,610 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:33:30,611 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:33:30,611 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:33:30,611 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:33:30,619 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:33:30,619 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 130 ms
+2020-07-14 23:33:30,643 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:33:30,668 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:33:30,672 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:33:30,674 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:33:30,680 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.207 seconds (JVM running for 2438.469)
+2020-07-14 23:33:30,681 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:33:36,153 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1316] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:33:36,212 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CodingChallengeApplication on A05041382 with PID 23814 (/Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge/target/classes started by a144483 in /Users/a144483/Documents/workspace-spring-tool-suite-4-4.7.0.RELEASE/CodingChallenge)
+2020-07-14 23:33:36,212 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-14 23:33:36,212 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-07-14 23:33:36,333 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-07-14 23:33:36,334 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:33:36,334 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-07-14 23:33:36,334 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-14 23:33:36,341 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-07-14 23:33:36,341 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 127 ms
+2020-07-14 23:33:36,365 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 23:33:36,386 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-07-14 23:33:36,391 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-14 23:33:36,392 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-14 23:33:36,395 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CodingChallengeApplication in 0.2 seconds (JVM running for 2444.187)
+2020-07-14 23:33:36,397 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-07-14 23:35:32,655 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(83)-127.0.0.1] Application shutdown requested.
+2020-07-14 23:35:32,672 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(83)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
