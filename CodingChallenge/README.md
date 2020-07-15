@@ -7,6 +7,14 @@
 * 	[Spring Boot](https://spring.io/projects/spring-boot) - Framework to ease the bootstrapping and development of new Spring Applications
 * 	[git](https://github.com/) - Free and Open-Source distributed version control system
 	[logging] -Logback Spring. check logback-spring.xml under src/main/resources.
+	[Java nio] For File Operations have used Java NIO package. The java.nio package was introduced in Java 1.4 and updated in Java 1.7 (NIO.2) with enhanced file operations and an ASynchronousSocketChannel. It provides:
+	 With Java Nio package, file operations like reading and writing are much faster and efficient. Below is the detailed list of functionalities added in the nio package.
+
+	1. Buffer – to read chunks of data at a time
+	2. CharsetDecoder – for mapping raw bytes to/from readable characters
+	3. Channel – for communicating with the outside world
+	4. Selector – to enable multiplexing on a SelectableChannel and provide access to any Channels that are ready for I/O non-blocking mode – to read whatever is ready
+
 ## External Tools Used
 
 * 	[Postman](https://www.getpostman.com/) - API Development Environment (Testing Docmentation)
