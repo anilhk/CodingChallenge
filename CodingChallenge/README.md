@@ -69,8 +69,6 @@ To monitor and manage your application
 |`http://localhost:8080/`                           | GET | This will redirect call to http://localhost:8080/getRandomWord.|
 |`http://localhost:8080/getRandomWord`              | GET | Retrieves a random word from the list of words in words_alpha.txt|
 
-                        | GET | |
-
 
 ## Test and Coverage 
 
