@@ -72,6 +72,10 @@ To monitor and manage your application
                         | GET | |
 
 
+## Test and Coverage 
+
+![Coverage](https://user-images.githubusercontent.com/8183342/87632830-06b17d00-c6ef-11ea-873f-824d4e064c54.jpg)
+
 
 ## Files and Directories
 
