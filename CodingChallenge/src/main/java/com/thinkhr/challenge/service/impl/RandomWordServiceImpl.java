@@ -35,6 +35,7 @@ public class RandomWordServiceImpl implements RandomWordService {
 			throw new IllegalArgumentException("File is empty with no records");
 		}
 
+		
 		Random random = new Random();
 		Integer line = random.nextInt(totalLines);
 		logger.debug("Random number selected  " + line);
