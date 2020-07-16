@@ -30,6 +30,10 @@ public class RandomWordServiceImpl implements RandomWordService {
 
 		Integer totalLines = reader.getTotalNumberOfLines();
 		logger.debug("total number of lines in the files " + totalLines);
+		
+		if (totalLines <=0) {
+			throw new IllegalArgumentException("File is empty with no records");
+		}
 
 		Random random = new Random();
 		Integer line = random.nextInt(totalLines);

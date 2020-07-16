@@ -43,6 +43,15 @@ public class RandomWordServiceImplTest {
 
 	}
 	
+	@Test(expected=IllegalArgumentException.class)
+	public void getRandomWordTestIllegalArgumentException() throws Exception {
+		
+		when(fileReader.fileExists()).thenReturn(true);
+		when(fileReader.getTotalNumberOfLines()).thenReturn(0);
+		randomWordServiceImpl.getRandomWord();
+		
+	}
+	
 	@Test(expected=FileNotFoundException.class)
 	public void getRandomWordTestException() throws Exception  {
 		
